@@ -17,6 +17,8 @@ __Salinization__- Which water points are at greatest risk from sea level rise
 
 ## EDA
 
+Please note there is a seperate EDA file as well as the Phase3_Project in this notebook, where the bulk of our initial analysis takes place.  
+
 By eliminating duplicate and unneccessary columns we were able to reduce our dataframe to the following columns:
 
 __*amount_tsh*__- TSH measures the distance water travels vertically to the pump site.  70% have 0, indicating the well is actually groundwater/sourced from lakes, streams, rivers, etc.  We also see some values that might be erroneous, like 138,000, but might not be if the water is travelling through piping to a house in a town for instance. 

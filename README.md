@@ -1,4 +1,10 @@
-# Phase 3 Final Project: Identifying Faulty Water Wells
+# Phase 3 Final Project: Ensuring Access to Water
+Student name: Sarah Lowing
+Student pace: Self paced
+Project review date: 6/5/2023
+Instructor: Abhineet Kulkarni
+Blog post URL: https://wordpress.com/post/datamonsterdotblog.wordpress.com/47
+
 ## Introduction
 For the Phase 3 final project we will develop a model to predict water well failure in Tanzania using information gathered by the Tanzanian government and hosted as a competition by DrivenData. We'll depart from the competition to address the needs of our client, a local NGO working with an international funding partner to locate the wells at greatest risk of failure in order to determine which geographic regions to direct their funding towards.
 
@@ -57,4 +63,10 @@ We ran three successive models, a logistic regression, a decision tree, and a ra
 By far the most relevant factor in well failure is location. As we have been discussing, there is a noteable lack of working wells in the south eastern region of the country, and our analysis has confirmed this. The next most important factor in well failure is the 'installer' 'other', meaning small no-named well pumps, or simple machines designed to move water are most likely to fail. Our best model, the DTC was able to accurately predict well functionality 98% of the time in our test data.
 
 ## Next steps
-Digging in deeper!  Locating mining and agricultural sites and plotting them to predict water contamination, as well as a population overlay for our map to visualize water scarcity per capita.   
+Digging in deeper:
+
+* Use mining site locations to anticipate water quality degradation
+* Identify communities whose nearest water access is greater than 10 miles
+* Use well depth and gps height to create a new column for wells at greatest risk of salinization 
+* Use a blackbox model to improve F1 and recall scores to get the most accurate picture of where wells will fail
+

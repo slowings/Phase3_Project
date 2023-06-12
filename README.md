@@ -1,8 +1,13 @@
 # Phase 3 Final Project: Ensuring Access to Water
+
 Student name: Sarah Lowing
+
 Student pace: Self paced
+
 Project review date: 6/5/2023
+
 Instructor: Abhineet Kulkarni
+
 Blog post URL: https://wordpress.com/post/datamonsterdotblog.wordpress.com/47
 
 ## Introduction

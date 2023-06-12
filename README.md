@@ -65,7 +65,15 @@ We ran three successive models, a logistic regression, a decision tree, and a ra
 
 ## Findings and Conclusion
 
-By far the most relevant factor in well failure is location. As we have been discussing, there is a noteable lack of working wells in the south eastern region of the country, and our analysis has confirmed this. The next most important factor in well failure is the 'installer' 'other', meaning small no-named well pumps, or simple machines designed to move water are most likely to fail. Our best model, the DTC was able to accurately predict well functionality 98% of the time in our test data.
+By far the most relevant factor in well failure is location. As we have been discussing, there is a noteable lack of working wells in the south eastern region of the country, and our analysis has confirmed this. The next most important factor in well failure is extraction type, meaning well pumps or simple machines designed to move water.  Less established manufacturers of well pumps are most likely to fail. Our best model, the DTC was able to accurately predict well functionality fairly well, with an overall F1 score of 94%.  More importantly, the recall score for our class 1, or non functional wells was a robust 91%, up from  in our baseline model.
+
+Decision Tree Classification Report:
+
+| well status | precision  |  recall  |  f1-score  |  support  |
+|:-----------:|:----------:|:--------:|:----------:| ---------:|
+| functional | 0.93 | 0.98 |  0.96 | 7877
+| non functional | 0.98 | 0.91 | 0.94  |  6520
+
 
 ## Next steps
 Digging in deeper:

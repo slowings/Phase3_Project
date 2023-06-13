@@ -10,6 +10,15 @@ Instructor: Abhineet Kulkarni
 
 Blog post URL: https://wordpress.com/post/datamonsterdotblog.wordpress.com/47
 
+## Repo Structure
+```bash
+|--Phase3_Project
+|   |--ipynb_checkpoints
+|   |--CSVFiles
+|   |--Phase3_Project.ipynb
+|   |--README.md
+|   |--SANDBOX.ipynb
+```
 ## Introduction
 For the Phase 3 final project we will develop a model to predict water well failure in Tanzania using information gathered by the Tanzanian government and hosted as a competition by DrivenData. We'll depart from the competition to address the needs of our client, a local NGO working with an international funding partner to locate the wells at greatest risk of failure in order to determine which geographic regions to direct their funding towards.
 

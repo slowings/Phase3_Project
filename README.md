@@ -86,8 +86,12 @@ Decision Tree Classification Report:
 | well status | precision  |  recall  |  f1-score  |  support  |
 |:-----------:|:----------:|:--------:|:----------:| ---------:|
 | functional | 0.93 | 0.98 |  0.96 | 7877
-| non functional | 0.98 | 0.91 | 0.94  |  6520
+| non functional | 0.98 | 0.95 | 0.94  |  6520
 
+
+<img width="338" alt="Screenshot 2023-06-13 at 3 46 00 PM" src="https://github.com/slowings/Phase3_Project/assets/113614318/db5b4f4d-1728-49a3-a7d0-1b02679a80ad">
+
+As we can see from the confusion matrix above, our model was able to capture 95% of failed wells, identifying 6,180 failed wells in our test data, and misclassified only 313 wells as failing.  Our performance on class 0 (functional wells), was even more impressive, with our model identifying 98% of functional wells, or 7,804 wells, with only 100 false positives.
 
 ## Next steps
 Digging in deeper:
